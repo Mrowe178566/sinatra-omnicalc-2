@@ -3,6 +3,7 @@ require "sinatra/reloader"
 
 get("/") do
   redirect("/add")
+  erb(:add_form)
 end
 
 get("/ad") do
